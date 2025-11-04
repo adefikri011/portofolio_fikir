@@ -4,40 +4,30 @@
   "private": true,
   "author": {
     "name": "Ade Fikri",
-    "email": "sanidhya.verma12345@gmail.com",
+    "email": "adefikri011@gmail.com",
     "url": "https://github.com/adefikri011"
   },
-  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
+  "description": "Modern 3D Portfolio using React, Three.js, and TypeScript",
   "keywords": [
     "reactjs",
     "react",
-    "portfolio-app",
+    "portfolio",
     "three-js",
-    "modern-ui/ux",
-    "js",
-    "javascript",
-    "html",
-    "css",
-    "tailwindcss"
+    "vite",
+    "tailwindcss",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adefikri011/portofolio_fikri_adee.git"
+    "url": "https://github.com/adefikri011/portofolio_fikir.git"
   },
-  "homepage": "https://adefikri011.github.io/portofolio_fikri_adee/",
-  "bugs": {
-    "url": "https://github.com/adefikri011/portofolio_fikri_adee/issues",
-    "email": "sanidhya.verma12345@gmail.com"
-  },
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check-types": "tsc --noEmit",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "vercel-build": "npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
@@ -45,10 +35,10 @@
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^10.18.0",
+    "framer-motion": "10.18.0",
     "maath": "^0.10.8",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-router-dom": "^6.27.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
@@ -58,13 +48,11 @@
     "three-stdlib": "^2.36.0"
   },
   "devDependencies": {
-    "@types/react": "^18.3.6",
-    "@types/react-dom": "^18.3.3",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "@types/react-vertical-timeline-component": "^3.3.6",
-    "@types/tailwindcss": "^3.1.0",
     "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.21",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.4.5",
