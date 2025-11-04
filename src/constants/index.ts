@@ -131,19 +131,19 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "SMKN 1 Kawali",
-    company_name: "Sekolah Menengah Kejuruan",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Juli 2023 - Sekarang",
-    points: [
-      " Mulai mendalami dunia pemrograman dan memahami dasar-dasar pembuatan aplikasi serta website.",
-      " Bersungguh-sungguh dalam belajar koding dan terus mengembangkan kemampuan di bidang teknologi informasi.",
-      " Diberi kepercayaan untuk membuat dan mengelola website PKL SMKN 1 Kawali sebagai bagian dari proyek sekolah.",
-      " Belajar bekerja secara mandiri maupun berkolaborasi dengan teman untuk menyelesaikan proyek dengan hasil terbaik."
+  title: "SMKN 1 Kawali",
+  company_name: "Sekolah Menengah Kejuruan<br>Rekayasa Perangkat Lunak",
+  icon: shopify,
+  iconBg: "#383E56",
+  date: "Juli 2023 - Sekarang",
+  points: [
+    "Mulai mendalami dunia pemrograman dan memahami dasar-dasar pembuatan aplikasi serta website.",
+    "Bersungguh-sungguh dalam belajar koding dan terus mengembangkan kemampuan di bidang teknologi informasi.",
+    "Diberi kepercayaan untuk membuat dan mengelola website PKL SMKN 1 Kawali sebagai bagian dari proyek sekolah.",
+    "Belajar bekerja secara mandiri maupun berkolaborasi dengan teman untuk menyelesaikan proyek dengan hasil terbaik."
+  ],
+}
 
-    ],
-  },
 
   {
     title: "SMP T Manahijul Huda",
