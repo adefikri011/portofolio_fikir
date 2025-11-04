@@ -129,21 +129,21 @@ export const TECHNOLOGIES = [
 ] as const;
 
 // Experiences
+// Experiences
 export const EXPERIENCES = [
   {
-  title: "SMKN 1 Kawali",
-  company_name: "Sekolah Menengah Kejuruan<br>Rekayasa Perangkat Lunak",
-  icon: shopify,
-  iconBg: "#383E56",
-  date: "Juli 2023 - Sekarang",
-  points: [
-    "Mulai mendalami dunia pemrograman dan memahami dasar-dasar pembuatan aplikasi serta website.",
-    "Bersungguh-sungguh dalam belajar koding dan terus mengembangkan kemampuan di bidang teknologi informasi.",
-    "Diberi kepercayaan untuk membuat dan mengelola website PKL SMKN 1 Kawali sebagai bagian dari proyek sekolah.",
-    "Belajar bekerja secara mandiri maupun berkolaborasi dengan teman untuk menyelesaikan proyek dengan hasil terbaik."
-  ],
-}
-
+    title: "SMKN 1 Kawali",
+    company_name: "Sekolah Menengah Kejuruan<br>Rekayasa Perangkat Lunak",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Juli 2023 - Sekarang",
+    points: [
+      "Mulai mendalami dunia pemrograman dan memahami dasar-dasar pembuatan aplikasi serta website.",
+      "Bersungguh-sungguh dalam belajar koding dan terus mengembangkan kemampuan di bidang teknologi informasi.",
+      "Diberi kepercayaan untuk membuat dan mengelola website PKL SMKN 1 Kawali sebagai bagian dari proyek sekolah.",
+      "Belajar bekerja secara mandiri maupun berkolaborasi dengan teman untuk menyelesaikan proyek dengan hasil terbaik.",
+    ],
+  }, // ⬅️ koma ini yang tadi hilang
 
   {
     title: "SMP T Manahijul Huda",
@@ -152,13 +152,14 @@ export const EXPERIENCES = [
     iconBg: "#E6DEDD",
     date: "Juli 2020 - Juni 2023",
     points: [
-      " Aktif mengikuti kegiatan belajar di sekolah dan selalu berusaha memahami setiap pelajaran dengan baik.",
-      " Terlibat dalam berbagai kegiatan ekstrakurikuler untuk mengembangkan minat dan bakat di luar kelas.",
-      " Sering berpartisipasi dalam kegiatan sekolah seperti lomba, acara peringatan, dan kegiatan sosial.",
-      " Menjaga sikap disiplin, sopan, serta bekerja sama dengan teman dan guru dengan baik."
+      "Aktif mengikuti kegiatan belajar di sekolah dan selalu berusaha memahami setiap pelajaran dengan baik.",
+      "Terlibat dalam berbagai kegiatan ekstrakurikuler untuk mengembangkan minat dan bakat di luar kelas.",
+      "Sering berpartisipasi dalam kegiatan sekolah seperti lomba, acara peringatan, dan kegiatan sosial.",
+      "Menjaga sikap disiplin, sopan, serta bekerja sama dengan teman dan guru dengan baik.",
     ],
   },
 ] as const;
+
 
 
 export const ORGANIZATIONS = [
