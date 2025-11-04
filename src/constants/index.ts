@@ -230,26 +230,28 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Web Pkl Smkn 1 Kawali",
-    description:
-      "Website ini membantu proses Praktik Kerja Lapangan di SMKN 1 Kawali agar lebih mudah dan terorganisir. Siswa dapat mengisi laporan, melihat data perusahaan, dan memantau kegiatan PKL secara online.",
-    tags: [
-      {
-        name: "Blade",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "laravel",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: webpkl,
-    live_site_link: "https://pkl.smkn1kawali.sch.id/",
-  },
+  name: "Web Pkl Smkn 1 Kawali",
+  description:
+    "Website ini membantu proses Praktik Kerja Lapangan di SMKN 1 Kawali agar lebih mudah dan terorganisir. Siswa dapat mengisi laporan, melihat data perusahaan, dan memantau kegiatan PKL secara online.",
+  tags: [
+    {
+      name: "Blade",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Php",
+      color: "green-text-gradient",
+    },
+    {
+      name: "laravel",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: webpkl,
+  live_site_link: "https://pkl.smkn1kawali.sch.id/",
+  year: "2023", // ✅ tahun project ditambahkan di sini
+},
+
 
 ] as const;
 
