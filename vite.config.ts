@@ -3,5 +3,13 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // ⚠️ bukan '/portofolio_fikri_adee/' dan bukan '/'
+  base: './',
+  optimizeDeps: {
+    include: ['three', 'framer-motion'],
+  },
+  build: {
+    commonjsOptions: {
+      transformMixedEsModules: true,
+    },
+  },
 })
